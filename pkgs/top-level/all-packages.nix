@@ -4841,6 +4841,8 @@ with pkgs;
 
   wl-clipboard = callPackage ../tools/wayland/wl-clipboard { };
 
+  wl-clipboard-rs = callPackage ../tools/wayland/wl-clipboard-rs { };
+
   wl-clipboard-x11 = callPackage ../tools/wayland/wl-clipboard-x11 { };
 
   wl-color-picker = callPackage ../tools/wayland/wl-color-picker { };
