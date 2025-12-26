@@ -23743,6 +23743,12 @@
     githubId = 8109138;
     name = "Scott Edlund";
   };
+  seedart = {
+    name = "Cameron Dart";
+    email = "sigskam@proton.me";
+    github = "skamdart";
+    githubId = 8763518;
+  };
   sefidel = {
     name = "sefidel";
     email = "contact@sefidel.net";
