@@ -2311,6 +2311,8 @@ self: super: with self; {
 
   buildcatrust = callPackage ../development/python-modules/buildcatrust { };
 
+  buildkite-py = callPackage ../development/python-modules/buildkite-py { };
+
   buildstream-plugins = callPackage ../development/python-modules/buildstream-plugins { };
 
   bump-my-version = callPackage ../development/python-modules/bump-my-version { };
@@ -7733,6 +7735,8 @@ self: super: with self; {
   jschon = callPackage ../development/python-modules/jschon { };
 
   jsmin = callPackage ../development/python-modules/jsmin { };
+
+  jsoncomparison = callPackage ../development/python-modules/jsoncomparison { };
 
   json-api-doc = callPackage ../development/python-modules/json-api-doc { };
 
